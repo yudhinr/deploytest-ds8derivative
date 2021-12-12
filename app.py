@@ -29,9 +29,9 @@ def prediction():
   preds = data_processing(df)
   
   if preds[0] == 0:
-    result = 'Ditolak'
+    result = 'Customer Not Converted'
   else:
-    result='Diterima'  
+    result='Customer Converted'  
 
   # print(data)
   return result
