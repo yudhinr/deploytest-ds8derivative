@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+</head>
+<body>
+    <center>
+        <h1>Data Demo</h1>
+        <form method='post' action="/prediction">
+            <table border="1" width =50% >
+                <tr>
+                    <td>User Id</td>
+                    <td>
+                        <input type="text" name = "user_id">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <select name="gender">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td>
+                        <input type="text" name = "age">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Estimated Salary</td>
+                    <td>
+                        <input type="text" name = "estimatedsalary">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" name="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+    
+</body>
+</html>
